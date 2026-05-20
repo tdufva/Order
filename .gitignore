@@ -6,3 +6,6 @@ dist/
 *.xcuserdata/
 .DS_Store
 .codex/
+
+xcuserdata/
+*.xcuserstate
