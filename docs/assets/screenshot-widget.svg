@@ -1,0 +1,18 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wg" x1="0" y1="0" x2="900" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#001538"/>
+      <stop offset=".55" stop-color="#002B63"/>
+      <stop offset="1" stop-color="#006BA6"/>
+    </linearGradient>
+  </defs>
+  <rect x="70" y="64" width="760" height="432" rx="54" fill="url(#wg)"/>
+  <rect x="70" y="64" width="760" height="432" rx="54" stroke="white" stroke-opacity=".18"/>
+  <rect x="70" y="474" width="760" height="22" rx="11" fill="#FDD000"/>
+  <text x="126" y="160" fill="white" font-family="Georgia, ui-serif, serif" font-size="64" font-weight="700">kunskapande</text>
+  <text x="126" y="220" fill="#FDD000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="34" font-weight="650">tiedonmuodostus</text>
+  <text x="126" y="282" fill="white" opacity=".86" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28">Hur kunskap blir till.</text>
+  <text x="126" y="342" fill="white" opacity=".70" font-family="Georgia, ui-serif, serif" font-size="26">Kunskapande beskriver hur kunskap blir till</text>
+  <text x="126" y="382" fill="white" opacity=".70" font-family="Georgia, ui-serif, serif" font-size="26">genom praktik, material, språk och relationer.</text>
+  <text x="126" y="430" fill="white" opacity=".48" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20">iOS and macOS widgets refresh after midnight</text>
+</svg>

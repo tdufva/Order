@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000001001 /* iOSWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* iOSWordApp.swift */; };
+		A10000000000000000001002 /* TodayWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* TodayWordView.swift */; };
+		A10000000000000000001003 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* SearchView.swift */; };
+		A10000000000000000001004 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000D /* CSVParser.swift */; };
+		A10000000000000000001005 /* EntryFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000E /* EntryFormatter.swift */; };
+		B20000000000000000001001 /* OrderDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* OrderDesign.swift */; };
+		A10000000000000000001006 /* VocabularyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000F /* VocabularyEntry.swift */; };
+		A10000000000000000001007 /* VocabularyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* VocabularyStore.swift */; };
+		A10000000000000000001008 /* WordOfDayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* WordOfDayProvider.swift */; };
+		A10000000000000000001009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* Assets.xcassets */; };
+		A1000000000000000000100A /* Resources/vocabulary.csv in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* Resources/vocabulary.csv */; };
+		A10000000000000000001101 /* MacWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* MacWordApp.swift */; };
+		A10000000000000000001102 /* MacClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* MacClipboard.swift */; };
+		A10000000000000000001103 /* MacTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000007 /* MacTodayView.swift */; };
+		A10000000000000000001104 /* MenuBarWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008 /* MenuBarWordView.swift */; };
+		A10000000000000000001105 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000D /* CSVParser.swift */; };
+		A10000000000000000001106 /* EntryFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000E /* EntryFormatter.swift */; };
+		B20000000000000000001101 /* OrderDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* OrderDesign.swift */; };
+		A10000000000000000001107 /* VocabularyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000F /* VocabularyEntry.swift */; };
+		A10000000000000000001108 /* VocabularyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* VocabularyStore.swift */; };
+		A10000000000000000001109 /* WordOfDayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* WordOfDayProvider.swift */; };
+		A1000000000000000000110A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000009 /* Assets.xcassets */; };
+		A1000000000000000000110B /* Resources/vocabulary.csv in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* Resources/vocabulary.csv */; };
+		A10000000000000000001201 /* WordWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000A /* WordWidget.swift */; };
+		A10000000000000000001202 /* WordTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000B /* WordTimelineProvider.swift */; };
+		A10000000000000000001203 /* WordWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000C /* WordWidgetEntryView.swift */; };
+		A10000000000000000001204 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000D /* CSVParser.swift */; };
+		A10000000000000000001205 /* EntryFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000E /* EntryFormatter.swift */; };
+		B20000000000000000001201 /* OrderDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* OrderDesign.swift */; };
+		A10000000000000000001206 /* VocabularyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000F /* VocabularyEntry.swift */; };
+		A10000000000000000001207 /* VocabularyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* VocabularyStore.swift */; };
+		A10000000000000000001208 /* WordOfDayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* WordOfDayProvider.swift */; };
+		A10000000000000000001209 /* Resources/vocabulary.csv in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* Resources/vocabulary.csv */; };
+		A10000000000000000001301 /* WordWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000A /* WordWidget.swift */; };
+		A10000000000000000001302 /* WordTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000B /* WordTimelineProvider.swift */; };
+		A10000000000000000001303 /* WordWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000C /* WordWidgetEntryView.swift */; };
+		A10000000000000000001304 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000D /* CSVParser.swift */; };
+		A10000000000000000001305 /* EntryFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000E /* EntryFormatter.swift */; };
+		B20000000000000000001301 /* OrderDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* OrderDesign.swift */; };
+		A10000000000000000001306 /* VocabularyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000F /* VocabularyEntry.swift */; };
+		A10000000000000000001307 /* VocabularyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* VocabularyStore.swift */; };
+		A10000000000000000001308 /* WordOfDayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* WordOfDayProvider.swift */; };
+		A10000000000000000001309 /* Resources/vocabulary.csv in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* Resources/vocabulary.csv */; };
+		A10000000000000000001401 /* OrderiOSWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* OrderiOSWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A10000000000000000001402 /* OrderMacWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* OrderMacWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10000000000000000002001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000000000000000000020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000000000000000000300;
+			remoteInfo = "Order iOS Widget";
+		};
+		A10000000000000000002002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000000000000000000020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000000000000000000400;
+			remoteInfo = "Order macOS Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A10000000000000000003001 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000000000000000001401 /* OrderiOSWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000003002 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000000000000000001402 /* OrderMacWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000001 /* iOSWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSWordApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* TodayWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWordView.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000005 /* MacWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacWordApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000006 /* MacClipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacClipboard.swift; sourceTree = "<group>"; };
+		A10000000000000000000007 /* MacTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTodayView.swift; sourceTree = "<group>"; };
+		A10000000000000000000008 /* MenuBarWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarWordView.swift; sourceTree = "<group>"; };
+		A10000000000000000000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1000000000000000000000A /* WordWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordWidget.swift; sourceTree = "<group>"; };
+		A1000000000000000000000B /* WordTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTimelineProvider.swift; sourceTree = "<group>"; };
+		A1000000000000000000000C /* WordWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordWidgetEntryView.swift; sourceTree = "<group>"; };
+		A1000000000000000000000D /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		A1000000000000000000000E /* EntryFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryFormatter.swift; sourceTree = "<group>"; };
+		B20000000000000000000001 /* OrderDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDesign.swift; sourceTree = "<group>"; };
+		A1000000000000000000000F /* VocabularyEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyEntry.swift; sourceTree = "<group>"; };
+		A10000000000000000000010 /* VocabularyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000011 /* WordOfDayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordOfDayProvider.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* Resources/vocabulary.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/vocabulary.csv; sourceTree = "<group>"; };
+		A10000000000000000000013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000015 /* Order.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Order.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000016 /* Order.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Order.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000017 /* OrderiOSWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OrderiOSWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000018 /* OrderMacWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OrderMacWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000000000000000000001A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A1000000000000000000001B /* AppIconSource.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconSource.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000004001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000004002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000004003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000004004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000030 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000031 /* iOSApp */,
+				A10000000000000000000032 /* MacApp */,
+				A10000000000000000000033 /* Widgets */,
+				A10000000000000000000034 /* Sources/SwedishWordCore */,
+				A10000000000000000000035 /* iOSWidget */,
+				A10000000000000000000036 /* MacWidget */,
+				A10000000000000000000037 /* Resources */,
+				A10000000000000000000038 /* Project Files */,
+				A10000000000000000000039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000031 /* iOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000001 /* iOSWordApp.swift */,
+				A10000000000000000000002 /* TodayWordView.swift */,
+				A10000000000000000000003 /* SearchView.swift */,
+				A10000000000000000000004 /* Assets.xcassets */,
+			);
+			path = iOSApp;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000032 /* MacApp */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000005 /* MacWordApp.swift */,
+				A10000000000000000000006 /* MacClipboard.swift */,
+				A10000000000000000000007 /* MacTodayView.swift */,
+				A10000000000000000000008 /* MenuBarWordView.swift */,
+				A10000000000000000000009 /* Assets.xcassets */,
+			);
+			path = MacApp;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000033 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000A /* WordWidget.swift */,
+				A1000000000000000000000B /* WordTimelineProvider.swift */,
+				A1000000000000000000000C /* WordWidgetEntryView.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000034 /* Sources/SwedishWordCore */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000D /* CSVParser.swift */,
+				A1000000000000000000000E /* EntryFormatter.swift */,
+				B20000000000000000000001 /* OrderDesign.swift */,
+				A1000000000000000000000F /* VocabularyEntry.swift */,
+				A10000000000000000000010 /* VocabularyStore.swift */,
+				A10000000000000000000011 /* WordOfDayProvider.swift */,
+				A10000000000000000000012 /* Resources/vocabulary.csv */,
+			);
+			path = Sources/SwedishWordCore;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000035 /* iOSWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000013 /* Info.plist */,
+			);
+			path = iOSWidget;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000036 /* MacWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000014 /* Info.plist */,
+			);
+			path = MacWidget;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000037 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000001B /* AppIconSource.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000038 /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000001A /* README.md */,
+			);
+			name = "Project Files";
+			sourceTree = "<group>";
+		};
+		A10000000000000000000039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000015 /* Order.app */,
+				A10000000000000000000016 /* Order.app */,
+				A10000000000000000000017 /* OrderiOSWidget.appex */,
+				A10000000000000000000018 /* OrderMacWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000100 /* Order iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000007100 /* Build configuration list for PBXNativeTarget "Order iOS" */;
+			buildPhases = (
+				A10000000000000000005001 /* Sources */,
+				A10000000000000000004001 /* Frameworks */,
+				A10000000000000000006001 /* Resources */,
+				A10000000000000000003001 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10000000000000000002011 /* PBXTargetDependency */,
+			);
+			name = "Order iOS";
+			productName = Order;
+			productReference = A10000000000000000000015 /* Order.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000200 /* Order macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000007200 /* Build configuration list for PBXNativeTarget "Order macOS" */;
+			buildPhases = (
+				A10000000000000000005002 /* Sources */,
+				A10000000000000000004002 /* Frameworks */,
+				A10000000000000000006002 /* Resources */,
+				A10000000000000000003002 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10000000000000000002012 /* PBXTargetDependency */,
+			);
+			name = "Order macOS";
+			productName = Order;
+			productReference = A10000000000000000000016 /* Order.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000300 /* Order iOS Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000007300 /* Build configuration list for PBXNativeTarget "Order iOS Widget" */;
+			buildPhases = (
+				A10000000000000000005003 /* Sources */,
+				A10000000000000000004003 /* Frameworks */,
+				A10000000000000000006003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Order iOS Widget";
+			productName = OrderiOSWidget;
+			productReference = A10000000000000000000017 /* OrderiOSWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A10000000000000000000400 /* Order macOS Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000007400 /* Build configuration list for PBXNativeTarget "Order macOS Widget" */;
+			buildPhases = (
+				A10000000000000000005004 /* Sources */,
+				A10000000000000000004004 /* Frameworks */,
+				A10000000000000000006004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Order macOS Widget";
+			productName = OrderMacWidget;
+			productReference = A10000000000000000000018 /* OrderMacWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					A10000000000000000000100 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					A10000000000000000000200 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					A10000000000000000000300 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					A10000000000000000000400 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000007000 /* Build configuration list for PBXProject "Order" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				sv,
+			);
+			mainGroup = A10000000000000000000030;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A10000000000000000000039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000100 /* Order iOS */,
+				A10000000000000000000200 /* Order macOS */,
+				A10000000000000000000300 /* Order iOS Widget */,
+				A10000000000000000000400 /* Order macOS Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000006001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000001009 /* Assets.xcassets in Resources */,
+				A1000000000000000000100A /* Resources/vocabulary.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000006002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000110A /* Assets.xcassets in Resources */,
+				A1000000000000000000110B /* Resources/vocabulary.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000006003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000001209 /* Resources/vocabulary.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000006004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000001309 /* Resources/vocabulary.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000005001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000001001 /* iOSWordApp.swift in Sources */,
+				A10000000000000000001002 /* TodayWordView.swift in Sources */,
+				A10000000000000000001003 /* SearchView.swift in Sources */,
+				A10000000000000000001004 /* CSVParser.swift in Sources */,
+				A10000000000000000001005 /* EntryFormatter.swift in Sources */,
+				B20000000000000000001001 /* OrderDesign.swift in Sources */,
+				A10000000000000000001006 /* VocabularyEntry.swift in Sources */,
+				A10000000000000000001007 /* VocabularyStore.swift in Sources */,
+				A10000000000000000001008 /* WordOfDayProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000005002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000001101 /* MacWordApp.swift in Sources */,
+				A10000000000000000001102 /* MacClipboard.swift in Sources */,
+				A10000000000000000001103 /* MacTodayView.swift in Sources */,
+				A10000000000000000001104 /* MenuBarWordView.swift in Sources */,
+				A10000000000000000001105 /* CSVParser.swift in Sources */,
+				A10000000000000000001106 /* EntryFormatter.swift in Sources */,
+				B20000000000000000001101 /* OrderDesign.swift in Sources */,
+				A10000000000000000001107 /* VocabularyEntry.swift in Sources */,
+				A10000000000000000001108 /* VocabularyStore.swift in Sources */,
+				A10000000000000000001109 /* WordOfDayProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000005003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000001201 /* WordWidget.swift in Sources */,
+				A10000000000000000001202 /* WordTimelineProvider.swift in Sources */,
+				A10000000000000000001203 /* WordWidgetEntryView.swift in Sources */,
+				A10000000000000000001204 /* CSVParser.swift in Sources */,
+				A10000000000000000001205 /* EntryFormatter.swift in Sources */,
+				B20000000000000000001201 /* OrderDesign.swift in Sources */,
+				A10000000000000000001206 /* VocabularyEntry.swift in Sources */,
+				A10000000000000000001207 /* VocabularyStore.swift in Sources */,
+				A10000000000000000001208 /* WordOfDayProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000005004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000001301 /* WordWidget.swift in Sources */,
+				A10000000000000000001302 /* WordTimelineProvider.swift in Sources */,
+				A10000000000000000001303 /* WordWidgetEntryView.swift in Sources */,
+				A10000000000000000001304 /* CSVParser.swift in Sources */,
+				A10000000000000000001305 /* EntryFormatter.swift in Sources */,
+				B20000000000000000001301 /* OrderDesign.swift in Sources */,
+				A10000000000000000001306 /* VocabularyEntry.swift in Sources */,
+				A10000000000000000001307 /* VocabularyStore.swift in Sources */,
+				A10000000000000000001308 /* WordOfDayProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10000000000000000002011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000300 /* Order iOS Widget */;
+			targetProxy = A10000000000000000002001 /* PBXContainerItemProxy */;
+		};
+		A10000000000000000002012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000400 /* Order macOS Widget */;
+			targetProxy = A10000000000000000002002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000007001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000000000000000007002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A10000000000000000007101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXGU9WXVG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Order;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomidufva.order;
+				PRODUCT_NAME = Order;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000007102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXGU9WXVG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Order;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomidufva.order;
+				PRODUCT_NAME = Order;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A10000000000000000007201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXGU9WXVG2;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Order;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomidufva.order.mac;
+				PRODUCT_NAME = Order;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = YES;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000007202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXGU9WXVG2;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Order;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomidufva.order.mac;
+				PRODUCT_NAME = Order;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = YES;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10000000000000000007301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXGU9WXVG2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOSWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomidufva.order.widget;
+				PRODUCT_NAME = OrderiOSWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000007302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXGU9WXVG2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOSWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomidufva.order.widget;
+				PRODUCT_NAME = OrderiOSWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A10000000000000000007401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXGU9WXVG2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomidufva.order.mac.widget;
+				PRODUCT_NAME = OrderMacWidget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000007402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXGU9WXVG2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomidufva.order.mac.widget;
+				PRODUCT_NAME = OrderMacWidget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000007000 /* Build configuration list for PBXProject "Order" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000007001 /* Debug */,
+				A10000000000000000007002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000007100 /* Build configuration list for PBXNativeTarget "Order iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000007101 /* Debug */,
+				A10000000000000000007102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000007200 /* Build configuration list for PBXNativeTarget "Order macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000007201 /* Debug */,
+				A10000000000000000007202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000007300 /* Build configuration list for PBXNativeTarget "Order iOS Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000007301 /* Debug */,
+				A10000000000000000007302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000007400 /* Build configuration list for PBXNativeTarget "Order macOS Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000007401 /* Debug */,
+				A10000000000000000007402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = A10000000000000000000020 /* Project object */;
+}

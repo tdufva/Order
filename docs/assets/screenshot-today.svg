@@ -1,0 +1,43 @@
+<svg width="720" height="1440" viewBox="0 0 720 1440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="1440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#001538"/>
+      <stop offset="0.48" stop-color="#002B63"/>
+      <stop offset="1" stop-color="#006BA6"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(610 120) rotate(112) scale(420)">
+      <stop stop-color="#FDD000" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#FDD000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="1440" rx="82" fill="url(#bg)"/>
+  <rect width="720" height="1440" rx="82" fill="url(#goldGlow)"/>
+  <g opacity=".18">
+    <rect x="58" y="88" width="604" height="1264" rx="78" stroke="white"/>
+    <rect x="88" y="124" width="544" height="1192" rx="70" stroke="white"/>
+  </g>
+  <text x="58" y="134" fill="#FDD000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" letter-spacing="2">DAGENS FORSKNINGSORD</text>
+  <text x="58" y="174" fill="white" opacity=".65" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="21">20 May 2026</text>
+  <rect x="48" y="225" width="624" height="430" rx="42" fill="white" fill-opacity=".10" stroke="white" stroke-opacity=".18"/>
+  <rect x="82" y="270" width="72" height="5" rx="2.5" fill="#FDD000"/>
+  <text x="82" y="400" fill="white" font-family="Georgia, ui-serif, serif" font-size="86" font-weight="700">situering</text>
+  <text x="82" y="466" fill="#FDD000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="38" font-weight="600">paikantuminen</text>
+  <rect x="82" y="526" width="236" height="72" rx="22" fill="white" fill-opacity=".10"/>
+  <text x="112" y="555" fill="#FDD000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700">ORDKLASS</text>
+  <text x="112" y="582" fill="white" opacity=".86" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22">substantiv</text>
+  <rect x="334" y="526" width="302" height="72" rx="22" fill="white" fill-opacity=".10"/>
+  <text x="364" y="555" fill="#FDD000" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700">OMRADE</text>
+  <text x="364" y="582" fill="white" opacity=".86" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22">feministisk forskning</text>
+  <rect x="48" y="694" width="624" height="426" rx="38" fill="#001538" fill-opacity=".58" stroke="white" stroke-opacity=".14"/>
+  <rect x="48" y="694" width="624" height="5" rx="2.5" fill="#FDD000"/>
+  <text x="82" y="770" fill="white" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="34" font-weight="700">Kunskapens plats och position.</text>
+  <text x="82" y="842" fill="white" opacity=".78" font-family="Georgia, ui-serif, serif" font-size="29">Situering betonar att kunskap alltid</text>
+  <text x="82" y="884" fill="white" opacity=".78" font-family="Georgia, ui-serif, serif" font-size="29">formas i en viss plats, kropp,</text>
+  <text x="82" y="926" fill="white" opacity=".78" font-family="Georgia, ui-serif, serif" font-size="29">historia och praktik. Begreppet</text>
+  <text x="82" y="968" fill="white" opacity=".78" font-family="Georgia, ui-serif, serif" font-size="29">hjälper forskaren att synliggöra</text>
+  <text x="82" y="1010" fill="white" opacity=".78" font-family="Georgia, ui-serif, serif" font-size="29">sin position och sina villkor.</text>
+  <rect x="244" y="1272" width="232" height="58" rx="29" fill="white" fill-opacity=".16" stroke="white" stroke-opacity=".18"/>
+  <rect x="254" y="1281" width="104" height="40" rx="20" fill="#FDD000"/>
+  <text x="281" y="1308" fill="#002B63" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">Idag</text>
+  <text x="388" y="1308" fill="white" opacity=".82" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">Sök</text>
+</svg>
